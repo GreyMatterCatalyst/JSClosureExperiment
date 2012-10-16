@@ -1,4 +1,5 @@
 /**
+ * Copyright: (C) Craig Barber 2012
  * Class: ChatBoxWindow
  * This class encapsulates the data and functionality of individual ChatBoxWindow elements.
  * Note: this class depends upon jquery and expects it to be loaded already.

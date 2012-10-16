@@ -1,6 +1,6 @@
 /**
  * Class: ChatView
-
+ * Copyright: (C) Craig Barber 2012
  * @author: craigb
  * This class provides a library of functionality for the ChatView within ChitChat.
  * Note: This class depends upon jquery already being loaded.

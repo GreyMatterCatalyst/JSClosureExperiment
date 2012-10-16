@@ -1,4 +1,5 @@
 /**
+ * Copyright: (C) Craig Barber 2012
  * This class provides a simple iterator over the specified array object.
  * @author craigb
  * @param inputArray The array the iterator is being created for.

@@ -1,4 +1,5 @@
 /**
+ * Copyright: (C) Craig Barber 2012
  * This class encapsulates user data.
  * @author craigb
  */
