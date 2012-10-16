@@ -1,0 +1,204 @@
+body
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial,sans-serif;
+}
+a
+{
+	text-decoration: none;
+}
+.headerSection
+{
+	font-weight: bold;
+}
+.headerSection h1
+{
+	padding: 0px;
+	margin-bottom: 5px;
+	text-shadow: 4px 4px #EDC5EC;
+}
+.headerSection p
+{
+	transform: translate( 10px, 10px );
+	-webkit-transform: translate( 10px, -10px );
+	-moz-transform: translate( 10px, -10px );
+	margin: 0;
+}
+.footerSection
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-top: solid 2px #800080;
+	padding-top: 5px;
+}
+.contentSection
+{
+	display: inline-block;
+	min-height: 400px;
+	word-wrap:break-word;
+	width: 70%;
+}
+#controlsDiv
+{
+	float: right;
+}
+nav
+{
+	background-color: #800080;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	width: 100%;
+	border-radius: 4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+}
+nav a
+{
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	border-right: solid 1px white;
+	text-align: center;
+}
+nav a:hover
+{
+	color: #F5EDF0;
+}
+
+input
+{
+	border-radius: 4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	vertical-align: middle;
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+input[type=button]
+{
+	cursor:pointer;
+}
+
+.chitChatWindow
+{
+	display: inline-block;
+	background-color: #800080;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #800080;
+	border-radius: 10px;
+	margin: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+}
+
+.chitChatWindowTitle
+{
+	color: white;
+	width: 100%;
+	height: 10%;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20;
+}
+
+.chitChatWindowTitleButton
+{
+	float: right;
+	margin: 0px;
+}
+.chitChatWindowContent
+{
+	width: auto;
+	overflow-y: auto;
+	word-wrap:break-word;
+	text-align: justify;
+	border-radius: 4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	background-color: white;
+	border: none;
+}
+.chitChatWindowContent p
+{
+	margin: 5px;
+}
+.chatBoxContentUserMessageText
+{
+	color: #000000;
+}
+.chatBoxContentSystemMessageText
+{
+	color: #F70757;
+}
+.chatBoxContentMessageSenderOther
+{
+	color: #1B3FE0;
+	margin-right: 3px;
+}
+.chatBoxContentMessageSenderSelf
+{
+	color: #B91BE0;
+	margin-right: 3px;
+}
+.chatBoxBuffer
+{
+	width: 100%;
+	height: 20%;
+	background-color: #800080;
+}
+.chatBoxBuffer input
+{
+	margin-top: 10px;
+}
+.chatBoxBuffer input[type=text]
+{
+	width: 80%;
+	text-align: justify;
+}
+.chatBoxBuffer input[type=button]
+{
+	float: right;
+	margin-right: 0px;
+}
+
+.userListElement
+{
+	vertical-align: middle;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	cursor:pointer;
+	padding: 5px;
+}
+
+.userListElement:hover
+{
+	background-color: #F5EDF0;
+}
+
+.userListElementUsername
+{
+	margin-left: 5px;
+}

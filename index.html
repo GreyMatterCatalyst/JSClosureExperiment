@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="ChatView.class.js"></script>
+	<script type="text/javascript">
+		// create an instance of the ChatView which can be referenced globally
+		var sessionChatView = new ChatView( );
+	</script>
+</head>
+<body>
+	<div class="headerSection">
+		<h1>ChitChat</h1>
+		<p>
+			Your home on the web for chatting with friends
+		</p>
+	</div>
+	<nav>
+		<a href="index.html">Home</a>
+		<a target="_blank" href="http://www.reddit.com">Narwhal News</a>
+		<a target="_blank" href="http://www.pluspets.net/wp-content/uploads/2010/06/Cute-Little-Bunnies7.jpg">Bunnies</a>
+		<a target="_blank" href="http://www.slashdot.org">To Slash Or To Dot</a>
+	</nav>
+	<div id="contentSection" class="contentSection">
+	</div>
+	<div id="controlsDiv">
+		<br/>
+		<input type="button" value="AddTestMessage" onclick="sessionChatView.addTestMessageToLastChatBoxWindow( );"></input>
+		<br/>
+		<input type="button" value="ShowUserList" onclick="sessionChatView.showUserListWindow( );"></input>
+		<br/>
+		<input type="button" value="AddTestUser" onclick="sessionChatView.addTestUserToUserList( );"></input>
+		<br/>
+		<input type="button" value="ChangeUserStatus" onclick="sessionChatView.changeStatusOfLastAddedUser( );"></input>
+	</div>
+	<div class="footerSection">
+		Developed by <a href="mailto:craig@roguedev-studios.com">Craig Barber</a>
+	</div>
+</body>
+</html>
